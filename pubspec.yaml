@@ -1,0 +1,26 @@
+name: dialpad_launcher
+description: A brutalism launcher
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_apps: any
+  diacritic: any
+  bloc: any
+  flutter_bloc: any
+  hive: any
+  hive_flutter: any
+  local_auth: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
